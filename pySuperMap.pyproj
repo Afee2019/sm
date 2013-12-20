@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>24d4b709-de07-43ba-9910-516aa01beca2</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>smBase.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>pySuperMap</Name>
+    <RootNamespace>pySuperMap</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MyTest.py" />
+    <Compile Include="testToolkit.py" />
+    <Compile Include="tk\smFileTk.py" />
+    <Compile Include="tk\smGeneralTk.py" />
+    <Compile Include="tk\smImgTk.py" />
+    <Compile Include="wiz.py" />
+    <Compile Include="wx2.py" />
+    <Compile Include="wxImgDlg.py" />
+    <Compile Include="wxtk.py" />
+    <Compile Include="testBase.py" />
+    <Compile Include="smDP.py" />
+    <Compile Include="smBase.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
