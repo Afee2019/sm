@@ -236,7 +236,12 @@ class uds(ds):
 #获取指定的栅格文件的信息
 def GetImgFileInfo(fileName):
     imgInfo = imgFileInfo()
-    
+    imgInfo.fileName = fileName
+    L = smu.GetImageGeoRef(imgInfo.imgType,fileName)
+    imgInfo.bounds = rect(L[0][0], L[0][1],L[0][2],L[0][3])
+    imgInfo.width = L[1][0];
+    imgInfo.height = L[1][1];
+
     
 
 
