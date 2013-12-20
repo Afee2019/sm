@@ -140,6 +140,7 @@ def ChooseOpenFile(strTitle, wc = '所有文件(*.*)|*.*'):
                         wildcard=wc ,
                         style=wx.OPEN
                         )
+    fileName = ''
     if dlg.ShowModal() == wx.ID_OK:
         fileName = dlg.GetPath()
             
@@ -152,6 +153,7 @@ def ChooseSaveFile(strTitle, wc = '所有文件(*.*)|*.*'):
                         wildcard=wc ,
                         style=wx.SAVE
                         )
+    fileName = ''
     if dlg.ShowModal() == wx.ID_OK:
         fileName = dlg.GetPath()
             

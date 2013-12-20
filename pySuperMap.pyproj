@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>24d4b709-de07-43ba-9910-516aa01beca2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test\testData.py</StartupFile>
+    <StartupFile>dlg\testMergeImg.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="dlg\mergeImgs.py" />
+    <Compile Include="dlg\testMergeImg.py" />
     <Compile Include="ExampleCode\AppendDatasetRaster.py" />
     <Compile Include="ExampleCode\AppendRasterFile.py" />
     <Compile Include="ExampleCode\AppendRasterFileIgnoreBorderValue.py" />
@@ -78,6 +80,7 @@
     <Compile Include="ExampleCode\VisibilityAnalyst.py" />
     <Compile Include="ExampleCode\VisibilityAnalyst2.py" />
     <Compile Include="smBase.py" />
+    <Compile Include="test\testMergeImage.py" />
     <Compile Include="test\testOthers.py" />
     <Compile Include="test\testData.py" />
     <Compile Include="test\testTk.py" />
@@ -94,6 +97,7 @@
   <ItemGroup>
     <Folder Include="ExampleCode\" />
     <Folder Include="ExampleCode\SmPP\" />
+    <Folder Include="dlg\" />
     <Folder Include="wx\" />
     <Folder Include="test\" />
     <Folder Include="tk" />
