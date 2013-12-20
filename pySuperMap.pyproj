@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>24d4b709-de07-43ba-9910-516aa01beca2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>smBase.py</StartupFile>
+    <StartupFile>test\testData.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,20 +22,79 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ExampleCode\AppendDatasetRaster.py" />
+    <Compile Include="ExampleCode\AppendRasterFile.py" />
+    <Compile Include="ExampleCode\AppendRasterFileIgnoreBorderValue.py" />
+    <Compile Include="ExampleCode\AppendVectorFile.py" />
+    <Compile Include="ExampleCode\BatchImportMetaData.py" />
+    <Compile Include="ExampleCode\Buffer.py" />
+    <Compile Include="ExampleCode\BufferMulti.py" />
+    <Compile Include="ExampleCode\BuildFromTaskFile.py" />
+    <Compile Include="ExampleCode\BuildFromTaskFileParallel.py" />
+    <Compile Include="ExampleCode\BuildPyramid.py" />
+    <Compile Include="ExampleCode\BuildPyramidTiersOnly.py" />
+    <Compile Include="ExampleCode\CalculateSlope.py" />
+    <Compile Include="ExampleCode\CalculateViewShed.py" />
+    <Compile Include="ExampleCode\ComputeGeoArea.py" />
+    <Compile Include="ExampleCode\CreateDatasetFrom.py" />
+    <Compile Include="ExampleCode\CreateDatasetGroup.py" />
+    <Compile Include="ExampleCode\CreateDatasetRaster.py" />
+    <Compile Include="ExampleCode\CreateDataSource.py" />
+    <Compile Include="ExampleCode\CreateNoValue.py" />
+    <Compile Include="ExampleCode\CreateWorkspace.py" />
+    <Compile Include="ExampleCode\CutFill.py" />
+    <Compile Include="ExampleCode\Data_Import_UGO_SFC.py" />
+    <Compile Include="ExampleCode\Eliminate.py" />
+    <Compile Include="ExampleCode\ExportMapToFile.py" />
+    <Compile Include="ExampleCode\ExportRaster.py" />
+    <Compile Include="ExampleCode\ExportVector.py" />
+    <Compile Include="ExampleCode\ExtractIsoline.py" />
+    <Compile Include="ExampleCode\ExtractRegion.py" />
+    <Compile Include="ExampleCode\GenerateCache.py" />
+    <Compile Include="ExampleCode\GenerateTempleFile.py" />
+    <Compile Include="ExampleCode\GetDatasetInfo.py" />
+    <Compile Include="ExampleCode\GetGridTabular.py" />
+    <Compile Include="ExampleCode\GetImageGeoRef.py" />
+    <Compile Include="ExampleCode\GetProjection.py" />
+    <Compile Include="ExampleCode\ImportRasterFile.py" />
+    <Compile Include="ExampleCode\ImportVectorFile.py" />
+    <Compile Include="ExampleCode\Query.py" />
+    <Compile Include="ExampleCode\RasterToVector.py" />
+    <Compile Include="ExampleCode\Region2Line.py" />
+    <Compile Include="ExampleCode\RegionInnerToPoint.py" />
+    <Compile Include="ExampleCode\RemovePyramids.py" />
+    <Compile Include="ExampleCode\Resample.py" />
+    <Compile Include="ExampleCode\SetClipRegion.py" />
+    <Compile Include="ExampleCode\SetGeoReference.py" />
+    <Compile Include="ExampleCode\SetNoValue.py" />
+    <Compile Include="ExampleCode\SetProjection.py" />
+    <Compile Include="ExampleCode\SmPP\SMUP.py" />
+    <Compile Include="ExampleCode\SmPP\SMUP_Image.py" />
+    <Compile Include="ExampleCode\SmPP\SMUP_test.py" />
+    <Compile Include="ExampleCode\TM_TIF2UDB.py" />
+    <Compile Include="ExampleCode\UGO_DataImport.py" />
+    <Compile Include="ExampleCode\UpdatePyramidByBound.py" />
+    <Compile Include="ExampleCode\VectorToRaster.py" />
+    <Compile Include="ExampleCode\VisibilityAnalyst.py" />
+    <Compile Include="ExampleCode\VisibilityAnalyst2.py" />
+    <Compile Include="smBase.py" />
     <Compile Include="test\testOthers.py" />
-    <Compile Include="test\testBase.py" />
+    <Compile Include="test\testData.py" />
     <Compile Include="test\testTk.py" />
     <Compile Include="tk\filetk.py" />
     <Compile Include="tk\basetk.py" />
     <Compile Include="tk\imgtk.py" />
-    <Compile Include="wiz.py" />
-    <Compile Include="wx2.py" />
-    <Compile Include="wxImgDlg.py" />
-    <Compile Include="wxtk.py" />
-    <Compile Include="smDP.py" />
-    <Compile Include="smBase.py" />
+    <Compile Include="smIO.py" />
+    <Compile Include="smData.py" />
+    <Compile Include="wx\wiz.py" />
+    <Compile Include="wx\wx2.py" />
+    <Compile Include="wx\wxImgDlg.py" />
+    <Compile Include="wx\wxtk.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ExampleCode\" />
+    <Folder Include="ExampleCode\SmPP\" />
+    <Folder Include="wx\" />
     <Folder Include="test\" />
     <Folder Include="tk" />
   </ItemGroup>

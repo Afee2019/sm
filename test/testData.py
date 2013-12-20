@@ -1,16 +1,10 @@
 #coding: gb2312
 #基础类(smBase)的测试代码
 import os
-import sm.smBase as sm
+import sm.smData as sm
 
-#先测试UDB数据源
+#测试UDB数据源
 fileName = r'C:\test\test.udb'
-uddFileName = r'C:\test\test.udd'
-
-if os.path.exists(fileName):
-    os.remove(fileName)
-if os.path.exists(uddFileName):
-    os.remove(uddFileName)
 
 uds = sm.uds(fileName, 'uds')
 uds.Create()
