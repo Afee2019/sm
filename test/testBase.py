@@ -1,7 +1,7 @@
 #coding: gb2312
 #基础类(smBase)的测试代码
 import os
-import smBase as sm
+import sm.smBase as sm
 
 #先测试UDB数据源
 fileName = r'C:\test\test.udb'

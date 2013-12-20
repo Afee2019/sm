@@ -1,7 +1,7 @@
 #coding: gb2312
 
 import os
-import Toolkit.smFileTk as tk
+import sm.tk.filetk as tk
 import wx
 
 

@@ -3,7 +3,7 @@
 #数据处理的方法放到这个文件里
 
 import smBase as py
-import Toolkit.smFileTk as tk
+import filetk as tk
 
 class DataPump:
     def __init__(self):

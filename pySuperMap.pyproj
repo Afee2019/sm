@@ -22,20 +22,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MyTest.py" />
-    <Compile Include="testToolkit.py" />
-    <Compile Include="tk\smFileTk.py" />
-    <Compile Include="tk\smGeneralTk.py" />
-    <Compile Include="tk\smImgTk.py" />
+    <Compile Include="test\testOthers.py" />
+    <Compile Include="test\testBase.py" />
+    <Compile Include="test\testTk.py" />
+    <Compile Include="tk\filetk.py" />
+    <Compile Include="tk\basetk.py" />
+    <Compile Include="tk\imgtk.py" />
     <Compile Include="wiz.py" />
     <Compile Include="wx2.py" />
     <Compile Include="wxImgDlg.py" />
     <Compile Include="wxtk.py" />
-    <Compile Include="testBase.py" />
     <Compile Include="smDP.py" />
     <Compile Include="smBase.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="test\" />
     <Folder Include="tk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />

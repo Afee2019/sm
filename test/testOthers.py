@@ -2,7 +2,7 @@
 
 import os
 import wx
-import Toolkit.smFileTk as tk
+import sm.tk.filetk as tk
 
 app = wx.App(False)
 
