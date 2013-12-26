@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>24d4b709-de07-43ba-9910-516aa01beca2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>dlg\testMergeImg.py</StartupFile>
+    <StartupFile>dlg\mergeImgs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
